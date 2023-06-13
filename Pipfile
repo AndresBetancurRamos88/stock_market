@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.1.7"
+djangorestframework = "==3.14"
+django-cors-headers = "*"
+drf-spectacular = "*"
+psycopg2-binary = "==2.9.5"
+requests = "*"
+django-environ = "*"
+flake8 = "*"
+isort = "*"
+zappa = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+black = "*"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.12"
